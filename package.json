@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "rollup": "^0.45.2",
+    "webpack": "^3.3.0"
+  },
+  "scripts": {
+    "rollup": "rollup a.js --format iife > rollup-bundle.js",
+    "webpack": "webpack a.js -p webpack-bundle.js"
+  }
+}
